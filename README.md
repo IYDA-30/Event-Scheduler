@@ -14,17 +14,17 @@ A Flask-based web application for managing events and allocating resources to th
 1. Clone or download the project files.
 2. Install the required dependencies:
    ```
-   pip install -r requirements.txt
+   pip install -r flask_app/requirements.txt
    ```
 3. Run the application:
    ```
-   python app.py
+   python flask_app/app.py
    ```
 4. Open your browser and navigate to `http://localhost:5000`.
 
 ## Database
 
-The application uses SQLite (`db.sqlite3`) for data storage. The database is automatically created when the app runs for the first time.
+The application uses SQLite (`flask_app/instance/db.sqlite3`) for data storage. The database is automatically created when the app runs for the first time.
 
 ## Usage
 
